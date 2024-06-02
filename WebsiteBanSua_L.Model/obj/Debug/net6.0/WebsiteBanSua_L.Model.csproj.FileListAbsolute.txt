@@ -1,0 +1,15 @@
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\bin\Debug\net6.0\WebsiteBanSua_L.Model.deps.json
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\bin\Debug\net6.0\WebsiteBanSua_L.Model.runtimeconfig.json
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\bin\Debug\net6.0\WebsiteBanSua_L.Model.dll
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\bin\Debug\net6.0\WebsiteBanSua_L.Model.pdb
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.csproj.AssemblyReference.cache
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.AssemblyInfoInputs.cache
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.AssemblyInfo.cs
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.csproj.CoreCompileInputs.cache
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.sourcelink.json
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.dll
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\refint\WebsiteBanSua_L.Model.dll
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.pdb
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\WebsiteBanSua_L.Model.genruntimeconfig.cache
+D:\USB_MSI\VS\ThietKeLapTrinhBackend\BTL_Backend\ThucTap4_BTL_Backend\WebsiteBanSua_L\WebsiteBanSua_L.Model\obj\Debug\net6.0\ref\WebsiteBanSua_L.Model.dll
