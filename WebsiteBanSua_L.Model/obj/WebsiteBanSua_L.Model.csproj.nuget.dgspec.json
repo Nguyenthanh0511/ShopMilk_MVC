@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {}
+    "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {}
   },
   "projects": {
-    "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {
+    "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
+        "projectUniqueName": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
         "projectName": "WebsiteBanSua_L.Model",
-        "projectPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
+        "projectPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
         "packagesPath": "C:\\Users\\NguyenThanh\\.nuget\\packages\\",
-        "outputPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\obj\\",
+        "outputPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NguyenThanh\\AppData\\Roaming\\NuGet\\NuGet.Config",

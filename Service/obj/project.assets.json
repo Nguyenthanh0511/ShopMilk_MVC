@@ -1952,11 +1952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\NguyenThanh\\.nuget\\packages\\",
-      "outputPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\Service\\obj\\",
+      "outputPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NguyenThanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1973,8 +1973,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj": {
-              "projectPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj"
+            "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj": {
+              "projectPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj"
             }
           }
         }

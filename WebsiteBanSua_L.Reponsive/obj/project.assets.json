@@ -1934,11 +1934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj",
+      "projectUniqueName": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj",
       "projectName": "WebsiteBanSua_L.Reponsive",
-      "projectPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj",
+      "projectPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Reponsive\\WebsiteBanSua_L.Reponsive.csproj",
       "packagesPath": "C:\\Users\\NguyenThanh\\.nuget\\packages\\",
-      "outputPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Reponsive\\obj\\",
+      "outputPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Reponsive\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NguyenThanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1955,8 +1955,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {
-              "projectPath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj"
+            "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj": {
+              "projectPath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj"
             }
           }
         }

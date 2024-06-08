@@ -1,0 +1,20 @@
+﻿@model Model.Entities.Category;
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admin/Views/_AdminLayout.cshtml";
+}
+
+<h1>Delete</h1>
+
+
+<form action="/Admin/Category/Delete" method="post">
+    <h3>Edit</h3>
+    <div class="mt-3">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" class="from-control" />
+    </div>
+    <div class="mt-3">
+        <input asp-for="Id" value="@Model.Id" style="display: none;" />
+        <input type="submit" value="Xoá" class="btn btn-primary" />
+    </div>
+</form>

@@ -12,7 +12,6 @@ namespace WebsiteBanSua_L.Web.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index()
         {
             return View();

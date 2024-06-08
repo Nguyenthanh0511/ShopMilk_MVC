@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebsiteBanSua_L.Reponsive.Reponsive;
+using WebsiteBanSua_L.Reponsive.Base;
 
 namespace Service.Service
 {
-    public class ProductService : BaseService<Product, ProductRepo>, IProductService
+    public class ProductService : BaseService<Product, IBaseRepo<Product>>, IProductService
     {
-        public ProductService(ProductRepo thisRepo) : base(thisRepo)
+        public ProductService(IBaseRepo<Product> thisRepo) : base(thisRepo)
         {
         }
     }

@@ -41,8 +41,6 @@ namespace Model.Data
             modelBuilder.Entity<OrderDetail>().HasOne(CD => CD.Product).WithMany(CD => CD.OrderDetails).HasForeignKey(CD => CD.ProdId);
             modelBuilder.Entity<OrderDetail>().HasOne(CD => CD.Order).WithMany(CD => CD.OrderDetails).HasForeignKey(CD => CD.OrId);
 
-
-
             modelBuilder.Entity<Order>().HasKey(p => new
             {
                 p.Id,

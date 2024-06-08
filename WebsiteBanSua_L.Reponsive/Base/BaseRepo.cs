@@ -12,23 +12,28 @@ namespace WebsiteBanSua_L.Reponsive.Base
         where T : class
     {
         public WebsiteBanSua_LContext _context;
+        public string idRepo {  get; set; }
         public BaseRepo(WebsiteBanSua_LContext context)
         {
+            idRepo = "";
             _context = context;
         }
 
-        public async Task<T> CreateRepo(T item)
+        public async Task CreateRepo(T item)
         {
             await _context.Set<T>().AddAsync(item); 
             await _context.SaveChangesAsync();
-            return item;
         }
 
-        public Task<T> GetAsync(string id)
+        public async Task<T> GetAsync(string id)
         {
-            throw new NotImplementedException();
+            var entity = await _context.Set<T>().FindAsync(id);
+            if(entity != null) {
+                idRepo = id;
+            }
+            return entity;
         }
-        public async Task<T> DeleteRepo(string  id)
+        public async Task DeleteRepo(string  id)
         {
             T entity = await _context.Set<T>().FindAsync(id);
             if(entity == null)
@@ -38,7 +43,6 @@ namespace WebsiteBanSua_L.Reponsive.Base
             _context.Set<T>().Remove(entity);
 
             await _context.SaveChangesAsync();
-            return entity;
         }
 
         public async Task<List<T>> GetAllAsync()
@@ -47,7 +51,7 @@ namespace WebsiteBanSua_L.Reponsive.Base
         }
 
 
-        public async Task<T> UpdateRepo(T item)
+        public async Task UpdateRepo(T item)
         {
             if (item == null)
             {
@@ -55,7 +59,6 @@ namespace WebsiteBanSua_L.Reponsive.Base
             }
             _context.Set<T>().Update(item);
             await _context.SaveChangesAsync();
-            return item;
         }
     }
 }

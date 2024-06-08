@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I/5hhIZ5DdJVedsmT2PXR1uGIm4XC58Sa4rYOq3oEUHj0tx1I+S5UQI3i2M8vXuFm6BrB+m+3SroxJc5PYdBeA==",
+  "dgSpecHash": "/RLPrMLOxTAgzCIVpzBMJmVezZu0rZs7fZzZoWoEmhz7lzc9Cbu9mEKxBivCiigqe6Onk+FQ90aDsjT7SCN9uQ==",
   "success": true,
-  "projectFilePath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
+  "projectFilePath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Model\\WebsiteBanSua_L.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NguyenThanh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\NguyenThanh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

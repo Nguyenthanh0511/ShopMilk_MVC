@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Pva3jkXSxjdYEnlux0Uik55DVBFiMmV8O/r2mR/FGZkAi4KJZotDJUBDDYFvzdRciINthkCUEWFLs9os0waew==",
+  "dgSpecHash": "KFIRfCcIsmvDuwi99uwiAHPZOBJev2pkXVwQYOm/+oowq0TtRV4jf4eL0aRjeVaGEcq8pNb46argjcKykG82hQ==",
   "success": true,
-  "projectFilePath": "D:\\USB_MSI\\VS\\Backend\\BTL_Backend\\ThucTap4_BTL_Backend\\WebsiteBanSua_L\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NguyenThanh\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\NguyenThanh\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

@@ -1,0 +1,16 @@
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\bin\Debug\net6.0\WebsiteBanSua_L.Reponsive.deps.json
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\bin\Debug\net6.0\WebsiteBanSua_L.Reponsive.dll
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\bin\Debug\net6.0\WebsiteBanSua_L.Reponsive.pdb
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\bin\Debug\net6.0\WebsiteBanSua_L.Model.dll
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\bin\Debug\net6.0\WebsiteBanSua_L.Model.pdb
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.csproj.AssemblyReference.cache
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.AssemblyInfoInputs.cache
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.AssemblyInfo.cs
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.csproj.CoreCompileInputs.cache
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.sourcelink.json
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.csproj.CopyComplete
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.dll
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\refint\WebsiteBanSua_L.Reponsive.dll
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\WebsiteBanSua_L.Reponsive.pdb
+C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Reponsive\obj\Debug\net6.0\ref\WebsiteBanSua_L.Reponsive.dll

@@ -9,10 +9,11 @@ namespace WebsiteBanSua_L.Reponsive.Base
     public interface IBaseRepo<T> 
         where T : class
     {
+        string idRepo { get; set; }
         Task<List<T>> GetAllAsync();
         Task<T> GetAsync(string id);
-        Task<T> CreateRepo(T item);
-        Task<T> DeleteRepo(string id);
-        Task<T> UpdateRepo(T item);
+        Task CreateRepo(T item);
+        Task DeleteRepo(string id);
+        Task UpdateRepo(T item);
     }
 }
