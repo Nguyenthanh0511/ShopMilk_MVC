@@ -10,7 +10,7 @@ namespace Model.Entities
     public class Image
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
         [Required(ErrorMessage = "Don't empty")]
         public string thumbnail {  get; set; }
         public string ProdId {  get; set; }

@@ -11,7 +11,7 @@ namespace Model.Entities
     public class Category
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
         [Display(Name="Name")]
         public string Name { get; set; }
         public ICollection<Product> products {  get; set; }

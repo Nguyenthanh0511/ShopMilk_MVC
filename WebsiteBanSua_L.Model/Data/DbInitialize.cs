@@ -23,11 +23,26 @@ namespace Model.Data
                 var context = scope.ServiceProvider.GetRequiredService<WebsiteBanSua_LContext>();
 
                 // Check if there are any existing products
+                if(!context.categorys.Any())
+                {
+                    var categories = new List<Category>()
+                    {
+                        new Category
+                        {
+                            Name="Sua tuoi"
+                        },
+                        new Category
+                        {
+                            Name = "Suoi lua mach"
+                        }
+                    };
+                }
                 if (!context.products.Any())
                 {
                     var products = new List<Product>
                     {
-                        new Product {Id="P1", Name = "Product 1", ImageUrl="https://www.thtruemart.vn/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/h/th-true-milk-gold-2024_1_.jpg", Description="Description for Product 1", Price = 10.50, CateId = "a11" },
+                        new Product {Name = "Product 1", ImageUrl="https://www.thtruemart.vn/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/h/th-true-milk-gold-2024_1_.jpg", Description="Description for Product 1", Price = 10.50, CateId = 1 },
+
                         // Add other products here
                     };
 

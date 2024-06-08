@@ -34,7 +34,6 @@ namespace WebsiteBanSua_L.Web.Areas.Admin.Controllers
             {
                 var entity = new Category
                 {
-                    Id = Guid.NewGuid().ToString(),
                     Name = category.Name,
                 };
                 await _service.Create(entity);

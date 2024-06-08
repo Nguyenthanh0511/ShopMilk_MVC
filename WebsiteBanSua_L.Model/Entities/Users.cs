@@ -10,7 +10,7 @@ namespace Model.Entities
     public class Users
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
         [Required(ErrorMessage = "Don't empty")]
         [StringLength(100)]
         public string UserName { get; set; }

@@ -10,9 +10,9 @@ namespace Model.Entities
     public class CartDetail
     {
         [Key]
-        public string UserId { get; set; }
+        public int UserId { get; set; }
         [Key]
-        public string ProdId {  get; set; }
+        public int ProdId {  get; set; }
         [Display(Name ="Quantity")]
         [Required(ErrorMessage = "Don't empty")]
         [Range(0,1000)]

@@ -10,9 +10,9 @@ namespace Model.Entities
     public class OrderDetail
     {
         [Key]
-        public string OrId {  get; set; }
+        public int OrId {  get; set; }
         [Key]
-        public string ProdId {  get; set; }
+        public int ProdId {  get; set; }
         [Display(Name ="Quantity")]
         [Required(ErrorMessage = "Don't empty")]
         [StringLength(100)]

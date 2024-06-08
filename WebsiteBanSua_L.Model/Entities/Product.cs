@@ -12,7 +12,7 @@ namespace Model.Entities
     public class Product
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter the product name.")]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "The name must be between 3 and 100 characters.")]
@@ -27,7 +27,7 @@ namespace Model.Entities
         public double Price { get; set; }
 
         [Required(ErrorMessage = "Please select a category.")]
-        public string CateId { get; set; }
+        public int CateId { get; set; }
 
         public Category Category { get; set; }
 
