@@ -10,27 +10,33 @@
 {
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">List product</h5>
+            <h5 class="card-title">Category</h5>
             <a href="/Administrator/Category/Create" method="post" class="btn btn-danger">Add new</a>
-            <table class="table">
+
+            <!-- Table with stripped rows -->
+            <table class="table table-striped">
                 <thead>
-                <th scope="col">Id</th>
-                <th scope="col">Name</th>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                    </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        <tr>
-                            <td>@item.Id</td>
+                        <tr scope="row">
+                            <th>@item.Id</th>
                             <td>@item.Name</td>
                             <td>
-                                <a href="/Administrator/Category/Update/@item.Id">Edit</a>
-                                <a href="/Administrator/Category/Delete/@item.Id">Delete</a>
+                                <a class="link-primary"href="/Administrator/Category/Update/@item.Id">Edit</a>
+                                <a class="link-primary"href="/Administrator/Category/Delete/@item.Id">Delete</a>
                             </td>
                         </tr>
                     }
                 </tbody>
             </table>
+            <!-- End Table with stripped rows -->
+
         </div>
     </div>
 }

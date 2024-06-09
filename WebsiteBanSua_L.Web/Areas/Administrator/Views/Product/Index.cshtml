@@ -1,0 +1,49 @@
+﻿@model List<Model.Entities.Product>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@if(@Model != null)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Category</h5>
+            <a href="/Administrator/Product/Create" method="post" class="btn btn-danger">Add new</a>
+            <!-- Table with stripped rows -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">ImageUrl</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr scope="row">
+                            <th>@item.Id</th>
+                            <td>@item.Name</td>
+                            <td class="imageCell" style="background-image: url('@item.ImageUrl')"></td>
+                            <th>@item.Description</th>
+                            <th>@item.Price</th>
+                            <td>
+                                <a class="link-primary" href="/Administrator/Product/Update/@item.Id">Edit</a>
+                                <a class="link-primary" href="/Administrator/Product/Delete/@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <!-- End Table with stripped rows -->
+
+        </div>
+    </div>
+}
+else{
+    <h5>No item</h5>
+}

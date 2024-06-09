@@ -45,7 +45,7 @@ namespace Service.Base
         {
             try
             {
-                if (id != 0)
+                if (id == 0)
                 {
                     throw new ArgumentException("Id cannot be null or empty", nameof(id));
                 }

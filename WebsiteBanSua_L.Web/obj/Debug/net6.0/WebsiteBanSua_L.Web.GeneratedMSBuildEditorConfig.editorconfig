@@ -18,20 +18,88 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\NguyenThanh\Documents\ShopMilk_MVC\WebsiteBanSua_L.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/CartDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXJ0RGV0YWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/CartDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXJ0RGV0YWlsXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/CartDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXJ0RGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/CartDetail/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXJ0RGV0YWlsXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Category/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xDYXRlZ29yeVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Image/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xJbWFnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Image/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xJbWFnZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Image/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xJbWFnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Image/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xJbWFnZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xQcm9kdWN0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xQcm9kdWN0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xQcm9kdWN0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xQcm9kdWN0XFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xTaGFyZWRcX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xVc2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Areas/Administrator/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Pages/Error.cshtml]
@@ -50,10 +118,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Home/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Home/GetProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,12 +126,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Home/ShowProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Home/_ProductListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJvZHVjdExpc3RQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Introduction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50cm9kdWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Login/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Login/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/OtherPage/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RoZXJQYWdlXEdhbGxlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/OtherPage/OurTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3RoZXJQYWdlXE91clRlYW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Shared/Error.cshtml]
@@ -82,12 +166,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9iYW5uZXJQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Shared/_ProductListPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0TGlzdFBhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/ShopCart/AddCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcENhcnRcQWRkQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NguyenThanh/Documents/ShopMilk_MVC/WebsiteBanSua_L.Web/Views/_ViewImports.cshtml]

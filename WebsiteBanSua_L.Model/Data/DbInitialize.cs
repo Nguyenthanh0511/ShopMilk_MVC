@@ -52,7 +52,11 @@ namespace Model.Data
                             ImageUrl = "https://www.thtruemart.vn/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/h/thung-sua-lua-mach-th-true-chocomalt-mistori-180ml-1_1.jpg",
                             Description = "Sản phẩm là sự kết hợp giữa sữa tươi sạch, chiết xuất lúa mạch và cacao tự nhiên cùng các thành phần/dưỡng chất hoàn toàn từ thiên nhiên. Cung cấp năng lượng giúp trẻ sẵn sàng cho mọi hoạt động thể chất hàng ngày. Hương vị thơm ngon vượt trội, chứa bộ vi chất giúp phát triển não bộ và chiều cao",
                             Price = 393.000,
-                            CateId = 1}
+                            CateId = 1},
+                        new Product{ Name ="THÙNG SỮA CHUA UỐNG MEN SỐNG VIỆT QUẤT 100 ML X 48 CHAI",
+                        ImageUrl="https://www.thtruemart.vn/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/t/h/thung_scums_viet_quat_2__800x800.png",
+                        Description="Sữa chua uống men sống Việt Quất tự nhiên TH true YOGURT sử dụng hoàn toàn sữa tươi sạch nguyên chất của trang trại TH, lên men tự nhiên.\r\nSản xuất trên dây chuyền hiện đại với công nghệ khép kín, giữ trọn vẹn dinh dưỡng tự nhiên từ sữa tươi sạch.\r\nChứa khoảng 1 tỷ lợi khuẩn TH.PARACASEI/chai.\r\nSử dụng hương vị và màu tự nhiên.\r\nSản phẩm đã được chứng minh tính hiệu quả trong việc hỗ trợ tiêu hóa và tăng cường đề kháng, cho cả nhà vui khỏe mỗi ngày.\r\nKhông sử dụng chất bảo quản.",CateId=2}
+
                         // Add other products here
                     };
 
@@ -88,6 +92,23 @@ namespace Model.Data
                         }
                     };
                     context.images.AddRange(Image);
+                    context.SaveChanges();
+                }
+
+                // User
+                if(!context.users.Any())
+                {
+                    var ListUserL = new List<Users>
+                    {
+                        new Users{
+                            UserName="ThanhLan123",role="Admin",password="L123123"
+                        },
+                        new Users
+                        {
+                            UserName="User123",role="User",password="T123123"
+                        }
+                    };
+                    context.users.AddRange(ListUserL);
                     context.SaveChanges();
                 }
             }

@@ -12,6 +12,8 @@ namespace WebsiteBanSua_L.Reponsive.Base
         where T : class
     {
         public WebsiteBanSua_LContext _context;
+
+
         public BaseRepo(WebsiteBanSua_LContext context)
         {
             _context = context;

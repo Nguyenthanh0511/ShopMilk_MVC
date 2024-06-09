@@ -45,141 +45,82 @@ namespace WebsiteBanSua_L.Web.Areas.Administrator.Controllers
             }
             return View(category);
         }
-       
-        //public async Task<IActionResult> Create(Category category)
-        //{
-        //    if (category != null)
-        //    {// Category với name null, đúng rồi không lấy từ form được, bỏ đấy đi cũng được, nó chỉ là bind giống kiểu validation ý
-        //        var entity = new Category
-        //        {
-        //            Name = category.Name,
-        //        };
-        //        // Chưa có
-        //        await _service.Create(entity);
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest("Id is empty");
+            }
 
-        //        if (_service.Flag)
-        //        {
-        //            return RedirectToAction("Index");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError("", _service.Error);
-        //        }
-        //    }
-        //    return View(category);
-        //}
+            var category = await _service.Get(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
 
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest("Id is empty");
+            }
 
-        //[HttpGet]
-        //public IActionResult Create()
-        //{
-        //    return View();
-        //}
+            await _service.Delete(id);
 
-        //[HttpPost]
-        //public async Task<IActionResult> Create(Category category)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var entity = new Category
-        //        {
-        //            Id = Guid.NewGuid().ToString().Substring(0,12),
-        //            Name = category.Name,
-        //        };
+            if (_service.Flag)
+            {
+                return RedirectToAction("Index");
+            }
 
-        //        await _service.Create(entity);
+            ModelState.AddModelError("", _service.Error);
+            var category = await _service.Get(id);
+            return View(category);
+        }
 
-        //        if (_service.Flag)
-        //        {
-        //            return RedirectToAction("Index");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError("", _service.Error);
-        //        }
-        //    }
+        [HttpGet]
+        public async Task<IActionResult> Update(int id)
+        {
+            if (id == 0)
+            {
+                return BadRequest("Id is empty");
+            }
 
-        //    // Model state is invalid or service.Flag is false, return the Create view with validation errors
-        //    return View(category);
-        //}
+            var category = await _service.Get(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
 
-        //[HttpGet]
-        //public async Task<IActionResult> Delete(string id)
-        //{
-        //    if (string.IsNullOrEmpty(id))
-        //    {
-        //        return BadRequest("Id is empty");
-        //    }
+            return View(category);
+        }
 
-        //    var category = await _service.Get(id);
-        //    if (category == null)
-        //    {
-        //        return NotFound();
-        //    }
+        [HttpPost]
+        public async Task<IActionResult> Update(Category category)
+        {
+            if (category == null)
+            {
+                return BadRequest("Entity is empty");
+            }
 
-        //    return View(category);
-        //}
+            if (ModelState.IsValid)
+            {
+                await _service.Update(category);
 
-        //[HttpPost, ActionName("Delete")]
-        //public async Task<IActionResult> DeleteConfirmed(string id)
-        //{
-        //    if (string.IsNullOrEmpty(id))
-        //    {
-        //        return BadRequest("Id is empty");
-        //    }
+                if (_service.Flag)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ModelState.AddModelError("", _service.Error);
+                }
+            }
 
-        //    await _service.Delete(id);
-
-        //    if (_service.Flag)
-        //    {
-        //        return RedirectToAction("Index");
-        //    }
-
-        //    ModelState.AddModelError("", _service.Error);
-        //    var category = await _service.Get(id);
-        //    return View(category);
-        //}
-
-        //[HttpGet]
-        //public async Task<IActionResult> Update(string id)
-        //{
-        //    if (string.IsNullOrEmpty(id))
-        //    {
-        //        return BadRequest("Id is empty");
-        //    }
-
-        //    var category = await _service.Get(id);
-        //    if (category == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(category);
-        //}
-
-        //[HttpPost]
-        //public async Task<IActionResult> Update(Category category)
-        //{
-        //    if (category == null)
-        //    {
-        //        return BadRequest("Entity is empty");
-        //    }
-
-        //    if (ModelState.IsValid)
-        //    {
-        //        await _service.Update(category);
-
-        //        if (_service.Flag)
-        //        {
-        //            return RedirectToAction("Index");
-        //        }
-        //        else
-        //        {
-        //            ModelState.AddModelError("", _service.Error);
-        //        }
-        //    }
-
-        //    return View(category);
-        //}
+            return View(category);
+        }
     }
 }

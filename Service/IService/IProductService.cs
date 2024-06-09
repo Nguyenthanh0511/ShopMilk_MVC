@@ -10,6 +10,6 @@ namespace Service.IService
 {
     public interface IProductService : IBaseService<Product>
     {
-        Task<Product> GetIdByCategory(int categoryId);
+        Task<List<Product>> GetIdByCategory(int categoryId);
     }
 }

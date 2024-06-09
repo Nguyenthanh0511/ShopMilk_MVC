@@ -15,6 +15,7 @@ namespace WebsiteBanSua_L.Web.Controllers
         private readonly ICategoryService _categoryService;
         private readonly IProductService _productService;
         private readonly WebsiteBanSua_LContext _context;
+
         public HomeController(IProductService productService,ICategoryService service, WebsiteBanSua_LContext context)
         {
             _context = context;
@@ -45,13 +46,11 @@ namespace WebsiteBanSua_L.Web.Controllers
         }
         public async Task<IActionResult> FilterByCategory(int CategoryId)
         {
-            var product = await _productService.GetIdByCategory(CategoryId);
-            if(product != null)
-            {
-                var products = new List<Product> { product};
-                return PartialView("_ProductListPartial", products);
-            }
-            return PartialView("_ProductListPartial", new List<Product>());
+            List<Product>  product = await _productService.GetIdByCategory(CategoryId);
+            //if(product != null)
+                //var products = new List<Product> { product};
+            return PartialView("_ProductListPartial", product);
+            //return PartialView("_ProductListPartial", new List<Product>());
         }
         [HttpGet]
         public async Task<IActionResult> GetProductDetail(int id)
@@ -91,6 +90,29 @@ namespace WebsiteBanSua_L.Web.Controllers
             {
                 return BadRequest(_productService.Error);
             }
+        }
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Category category)
+        {
+            if (ModelState.IsValid)
+            {
+                _categoryService.Create(category);
+                if (_categoryService.Flag)
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return BadRequest(_categoryService.Error);
+                }
+
+            }
+            return View(category);
         }
 
         //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

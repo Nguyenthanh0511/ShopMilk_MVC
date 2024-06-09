@@ -177,6 +177,11 @@ namespace WebsiteBanSua_L.Model.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
                     b.Property<string>("role")
                         .IsRequired()
                         .HasMaxLength(5)

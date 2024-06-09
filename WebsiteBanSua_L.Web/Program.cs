@@ -20,12 +20,20 @@ builder.Services.AddDbContext<WebsiteBanSua_LContext>(options => options.UseSqlS
 //builder.Services.AddScoped<ICategoryRepo, CategoryRepo>();
 builder.Services.AddScoped<IBaseRepo<Category>,BaseRepo<Category>>();
 builder.Services.AddScoped<IBaseRepo<Product>, BaseRepo<Product>>();
+builder.Services.AddScoped<IBaseRepo<Users>, BaseRepo<Users>>();
+builder.Services.AddScoped<IBaseRepo<CartDetail>, BaseRepo<CartDetail>>();
+builder.Services.AddScoped<IBaseRepo<Image>, BaseRepo<Image>>();
 // Register services
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IImageService, ImageService>();
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
+
+builder.Services.AddHttpContextAccessor(); // Đăng ký IHttpContextAccessor
+builder.Services.AddSession(); // Cấu hình dịch vụ Session
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,6 +47,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapAreaControllerRoute(
     name: "Administrator",

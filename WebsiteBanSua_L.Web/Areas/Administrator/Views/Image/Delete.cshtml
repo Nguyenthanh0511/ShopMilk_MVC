@@ -1,0 +1,32 @@
+﻿@model Model.Entities.Image;
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<form action="/Administrator/Image/Delete" method="post">
+    <div class="row mb-3">
+        <label asp-for="Id" class="col-sm-2 col-form-label">ID</label>
+        <div class="col-sm-10">
+            <input asp-for="Id" type="text" class="form-control" id="inputId" readonly>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="thumbnail" class="col-sm-2 col-form-label">Thumbnail</label>
+        <div class="col-sm-10">
+            <input asp-for="thumbnail" type="text" class="form-control" id="inputThumbnail" readonly>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="ProdId" class="col-sm-2 col-form-label">Product ID</label>
+        <div class="col-sm-10">
+            <input asp-for="ProdId" type="text" class="form-control" id="inputProdId" readonly>
+        </div>
+    </div>
+    <div class="text-center">
+        <input asp-for="Id" style="display: none;" />
+        <input type="submit" value="Xoá" class="btn btn-primary" />
+    </div>
+</form>

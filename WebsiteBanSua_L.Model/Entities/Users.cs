@@ -17,6 +17,9 @@ namespace Model.Entities
         [Required(ErrorMessage = "Don't empty")]
         [StringLength(5)]
         public string role {  get; set; }
+        [Required(ErrorMessage = "Don't empty")]
+        [StringLength(255)]
+        public string password {  get; set; }
         public ICollection<CartDetail> CartDetails { get; set; }
         public ICollection<Order> Orders { get; set; }
         public Users() { 

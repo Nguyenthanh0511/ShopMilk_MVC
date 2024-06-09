@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
     {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\banner-girlmilk.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-girlmilk.jpg"
+    },
+    {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\card.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\card.jpg"
     },
@@ -83,6 +87,14 @@
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\not-found.svg",
       "PackagePath": "staticwebassets\\assets\\img\\not-found.svg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\ourTeam1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ourTeam1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\ourTeam2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\ourTeam2.jpg"
     },
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\product-1.jpg",

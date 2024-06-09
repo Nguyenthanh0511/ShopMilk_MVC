@@ -10,6 +10,7 @@ namespace Model.Data
 {
     public class WebsiteBanSua_LContext : DbContext
     {
+        //code first
         public WebsiteBanSua_LContext(DbContextOptions<WebsiteBanSua_LContext> options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

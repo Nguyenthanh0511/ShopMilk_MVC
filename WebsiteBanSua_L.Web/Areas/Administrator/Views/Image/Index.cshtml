@@ -1,0 +1,47 @@
+﻿@model List<Model.Entities.Image>
+@{
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Images</h5>
+            <a href="/Administrator/Image/Create" class="btn btn-danger">Add new</a>
+
+            <!-- Table with stripped rows -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Thumbnail</th>
+                        <th scope="col">Product ID</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td class="imageCell" style="background-image: url('@item.thumbnail')"></td>
+                            <td>@item.ProdId</td>
+                            <td>
+                                <a class="btn btn-primary" href="/Administrator/Image/Update/@item.Id">Edit</a>
+                                <a class="btn btn-danger" href="/Administrator/Image/Delete/@item.Id">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <!-- End Table with stripped rows -->
+
+        </div>
+    </div>
+}
+else
+{
+    <p>No images found.</p>
+}
+

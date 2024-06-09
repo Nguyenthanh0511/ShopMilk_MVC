@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .banner-image {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     object-fit: cover;
     filter: brightness(70%);
 }
@@ -74,3 +74,38 @@ body {
     background: url('~/assets/Img/Banner_TH-MILK-Canh-dong-huong-duong.jpg') no-repeat center center;
     background-size: cover;
 }
+
+
+
+
+/*Thumbnail*/
+.urlImg {
+    max-width: 100%; /* Đặt chiều rộng tối đa là 100% của ô */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
+    display: block; /* Hiển thị hình ảnh dưới dạng khối */
+    margin: 0 auto; /* Canh giữa hình ảnh trong ô */
+}
+
+/* CSS cho ô td */
+/* CSS for table cells */
+td {
+    padding: 10px; /* Add padding to the cells */
+    text-align: center; /* Center-align the content */
+}
+
+/* CSS for image cells */
+.imageCell {
+    width: 150px; /* Set a fixed width for image cells */
+    height: 100px; /* Set a fixed height for image cells */
+    background-size: cover; /* Scale the background image to cover the entire cell */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image within the cell */
+}
+
+    /* CSS cho ô td */
+    .imageCell::before {
+        content: url('@item.thumbnail'); /* Sử dụng hình ảnh như một phần tử nội dung */
+        display: block; /* Hiển thị hình ảnh dưới dạng khối */
+        width: 100%; /* Đảm bảo hình ảnh phù hợp với kích thước của ô */
+        height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
+    }

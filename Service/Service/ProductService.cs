@@ -18,16 +18,16 @@ namespace Service.Service
             _repoCategory = repo;
         }
 
-        public async Task<Product> GetIdByCategory(int categoryId)
+        public async Task<List<Product>> GetIdByCategory(int categoryId)
         {
             var productList = await _repo.GetAllAsync();
             var categoryList = await _repoCategory.GetAllAsync();
             var entity = (from p in productList
-                         join cate in categoryList
-                         on p.CateId equals cate.Id
-                         where cate.Id == categoryId
-                         select p).FirstOrDefault();
-            return entity;
+                          join cate in categoryList
+                          on p.CateId equals cate.Id
+                          where cate.Id == categoryId
+                          select p);
+            return entity.ToList();
         }
     }
 }
