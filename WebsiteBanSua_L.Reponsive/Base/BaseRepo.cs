@@ -57,5 +57,7 @@ namespace WebsiteBanSua_L.Reponsive.Base
             _context.Set<T>().Update(item);
             await _context.SaveChangesAsync();
         }
+
+       
     }
 }

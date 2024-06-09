@@ -4,6 +4,7 @@ using Service.IService;
 
 namespace WebsiteBanSua_L.Web.Areas.Administrator.Controllers
 {
+    [Area("Administrator")]
     public class UserController : Controller
     {
         private readonly IUserService _service;

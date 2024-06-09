@@ -85,7 +85,13 @@
             </div>
           </div>
           <a href="#" class="btn btn-warning shadow-0"> Buy now </a>
-          <a href="#" class="btn btn-primary shadow-0"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </a>
+                    <a href="#" class="btn btn-primary shadow-0" id="addToCartBtn"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </a>
+
+                    <form id="addToCartForm" asp-controller="ShopCart" asp-action="AddCart" method="post">
+                        <input type="hidden" name="userId" value="2" /> <!-- Assuming userId is 1 for this example -->
+                        <input type="hidden" name="productId" value="@Model.product.Id" />
+                        <input type="hidden" name="quantity" value="1" />
+                    </form>
           @* <a href="#" class="btn btn-light border border-secondary py-2 icon-hover px-3"> <i class="me-1 fa fa-heart fa-lg"></i> Save </a> *@
         </div>
       </main>
@@ -188,4 +194,11 @@
   </div>
 </section>
 <!-- Footer -->
+<script>
+    document.getElementById("addToCartBtn").addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default anchor click behavior
 
+        // Submit the form
+        document.getElementById("addToCartForm").submit();
+    });
+</script>

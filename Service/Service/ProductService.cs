@@ -1,4 +1,5 @@
-﻿using Model.Entities;
+﻿using Model.Data;
+using Model.Entities;
 using Service.Base;
 using Service.IService;
 using System;
@@ -12,10 +13,18 @@ namespace Service.Service
 {
     public class ProductService : BaseService<Product, IBaseRepo<Product>>, IProductService
     {
+        private readonly WebsiteBanSua_LContext _context;
         private readonly IBaseRepo<Category> _repoCategory;
-        public ProductService(IBaseRepo<Product> thisRepo, IBaseRepo<Category> repo) : base(thisRepo)
+        public ProductService(IBaseRepo<Product> thisRepo, WebsiteBanSua_LContext context, IBaseRepo<Category> repo) : base(thisRepo)
         {
+            _context = context;
             _repoCategory = repo;
+        }
+
+        public async Task<Product> GetById(int id)
+        {
+            var entity = await _context.products.FindAsync(id);
+            return entity;
         }
 
         public async Task<List<Product>> GetIdByCategory(int categoryId)

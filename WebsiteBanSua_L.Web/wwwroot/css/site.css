@@ -109,3 +109,9 @@ td {
         width: 100%; /* Đảm bảo hình ảnh phù hợp với kích thước của ô */
         height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
     }
+    .imageCell::before {
+        content: url('@product.ImageUrl'); /* Sử dụng hình ảnh như một phần tử nội dung */
+        display: block; /* Hiển thị hình ảnh dưới dạng khối */
+        width: 100%; /* Đảm bảo hình ảnh phù hợp với kích thước của ô */
+        height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ khung hình */
+    }

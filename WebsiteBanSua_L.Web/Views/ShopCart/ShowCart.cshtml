@@ -1,0 +1,46 @@
+﻿@model WebsiteBanSua_L.Web.ViewModel.CartViewModel
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<h1>Your Cart</h1>
+
+@if (Model.listProduct.Any())
+{
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Cart</h5>
+            <!-- Table with stripped rows -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model.listProduct)
+                    {
+                        <tr>
+                            <td>@product.Name</td>
+                            <td><img src="@product.ImageUrl" alt="@product.Name" style="width: 100px; height: auto;" /></td>
+                            <td>1</td> <!-- Assuming quantity is not available in the ViewModel -->
+                            <td>@product.Price</td>
+                            <td>@(product.Price)</td> <!-- Assuming total is not available in the ViewModel -->
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+else
+{
+    <p>Your cart is empty.</p>
+}
+
+<a href="#" class="btn btn-primary">Checkout</a>

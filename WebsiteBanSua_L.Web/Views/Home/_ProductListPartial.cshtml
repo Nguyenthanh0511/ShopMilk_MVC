@@ -1,5 +1,5 @@
 ﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
-@model IEnumerable<Model.Entities.Product>
+@model List<Model.Entities.Product>
 
 @{
     var userId = ""; // Khởi tạo userId
@@ -12,14 +12,13 @@
 @foreach (var item in Model)
 {
     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-
         <div class="product-item">
             <div class="position-relative">
                 <img class="img-fluid" src="@item.ImageUrl" alt="">
                 <div class="product-overlay">
                     <a class="btn btn-square btn-secondary rounded-circle m-1" asp-controller="Home" asp-action="GetProductDetail" asp-route-id="@item.Id"><i class="bi bi-link">Detail</i></a>
                     <form asp-controller="ShopCart" asp-action="AddCart" method="post">
-                        <input type="hidden" name="userId" value="@item.Id" />
+                        <input type="hidden" name="userId" value="2" />
                         <input type="hidden" name="productId" value="@item.Id" />
                         <input type="hidden" name="quantity" value="1" />
                         <button type="submit" class="btn btn-square btn-secondary rounded-circle m-1"><i class="bi bi-cart"></i></button>

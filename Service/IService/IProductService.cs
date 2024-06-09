@@ -11,5 +11,6 @@ namespace Service.IService
     public interface IProductService : IBaseService<Product>
     {
         Task<List<Product>> GetIdByCategory(int categoryId);
+        Task<Product> GetById(int id);
     }
 }

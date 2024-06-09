@@ -1,0 +1,38 @@
+﻿@model WebsiteBanSua_L.Web.ViewModel.CartViewModel;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            @foreach (var product in Model.listProduct)
+            {
+                <li class="notification-item">
+                    <i class="bi bi-info-circle text-primary"></i>
+                    <div>
+                        <h4>@product.Name</h4>
+                        <p><img src="@product.ImageUrl" /></p>
+                    </div>
+                </li>
+            }
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+                <a asp-controller="ShowCart" asp-action="ShowCart">Show all notifications</a>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>

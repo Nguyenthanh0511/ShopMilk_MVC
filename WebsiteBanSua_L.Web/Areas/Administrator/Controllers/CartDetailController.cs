@@ -8,14 +8,15 @@ namespace WebsiteBanSua_L.Web.Areas.Administrator.Controllers
     public class CartDetailController : Controller
     {
         private ICartDetailService _service;
-        public CartDetailController() {
+        public CartDetailController(ICartDetailService service) {
+            _service = service;
         }
         public async Task<IActionResult> Index()
         {
 
             //var categories = await _service.GetAll();
-            var categories = await _service.GetAll();
-            return View(categories);
+            var cartD = await _service.GetAll();
+            return View(cartD);
         }
         [HttpGet]
         public IActionResult Create()
@@ -25,8 +26,6 @@ namespace WebsiteBanSua_L.Web.Areas.Administrator.Controllers
         [HttpPost]
         public IActionResult Create(CartDetail cartdetail)
         {
-            if (ModelState.IsValid)
-            {
                 _service.Create(cartdetail);
                 if (_service.Flag)
                 {
@@ -36,8 +35,6 @@ namespace WebsiteBanSua_L.Web.Areas.Administrator.Controllers
                 {
                     return BadRequest(_service.Error);
                 }
-
-            }
             return View(cartdetail);
         }
         [HttpGet]

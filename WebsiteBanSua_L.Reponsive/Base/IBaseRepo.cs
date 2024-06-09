@@ -1,4 +1,5 @@
 ﻿using Model.Data;
+using Model.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,6 @@ namespace WebsiteBanSua_L.Reponsive.Base
         Task CreateRepo(T item);
         Task DeleteRepo(int id);
         Task UpdateRepo(T item);
+       
     }
 }

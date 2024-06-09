@@ -11,7 +11,8 @@ namespace Service.IService
     public interface ICartDetailService : IBaseService<CartDetail>
     {
         Task<List<CartDetail>> getAllCart();
-        Task addCart(int userid, int productid, int quantity);
+        Task AddCart(int userid, int productid, int quantity);
         Task removeCart(int idProduct);
+      
     }
 }

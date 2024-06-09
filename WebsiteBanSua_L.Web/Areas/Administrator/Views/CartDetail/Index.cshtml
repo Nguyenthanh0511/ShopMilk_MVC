@@ -1,5 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model List<Model.Entities.CartDetail>
+
 @{
+    ViewData["Title"] = "Cart Details";
+    Layout = "~/Areas/Administrator/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Cart Details</h1>
+
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <a href="/Administrator/Cartdetail/Create" method="post" class="btn btn-danger">Add new</a>
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Product ID</th>
+                <th>Image</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Date Bought</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cartDetail in Model)
+            {
+                <tr>
+                    <td>@cartDetail.UserId</td>
+                    <td>@cartDetail.ProdId</td>
+                    <td>@cartDetail.Quantity</td>
+                    <td>@cartDetail.Total</td>
+                    <td>@cartDetail.DateBuy.ToShortDateString()</td>
+                    <td>
+                        <a class="link-primary" href="/Administrator/Category/Update/@cartDetail.ProdId">Edit</a>
+                        <a class="link-primary" href="/Administrator/Category/Delete/@cartDetail.ProdId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No cart details found.</p>
 }
