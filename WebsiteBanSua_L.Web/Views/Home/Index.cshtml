@@ -1,8 +1,110 @@
-﻿@{
+﻿@model List<Model.Entities.Product>
+@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@Html.Partial("_Banner")
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5 align-items-end">
+            <div class="col-lg-6">
+                <div class="row g-2">
+                    <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                        <div class="about-experience bg-secondary rounded">
+                            <h1 class="display-1 mb-0">25</h1>
+                            <small class="fs-5 fw-bold">Years Experience</small>
+                        </div>
+                    </div>
+                    <div class="col-6 wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                        <img class="img-fluid rounded" src="~/dairy-website-template/img/service-1.jpg">
+                    </div>
+                    <div class="col-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                        <img class="img-fluid rounded" src="~/dairy-website-template/img/service-2.jpg">
+                    </div>
+                    <div class="col-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                        <img class="img-fluid rounded" src="~/dairy-website-template/img/service-3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <p class="section-title bg-white text-start text-primary pe-3">About Us</p>
+                <h1 class="mb-4">Know About Our Dairy Farm &amp; Our History</h1>
+                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <div class="row g-5 pt-2 mb-5">
+                    <div class="col-sm-6">
+                        <img class="img-fluid mb-4" src="img/service.png" alt="">
+                        <h5 class="mb-3">Dedicated Services</h5>
+                        <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-fluid mb-4" src="img/product.png" alt="">
+                        <h5 class="mb-3">Organic Products</h5>
+                        <span>Clita erat ipsum et lorem et sit, sed stet lorem sit clita</span>
+                    </div>
+                </div>
+                <a class="btn btn-secondary rounded-pill py-3 px-5" href="">Explore More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/banner.jpg">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <div class="row g-4 align-items-center">
+                    <div class="col-sm-4">
+                        <img class="img-fluid rounded" src="~/dairy-website-template/img/banner-1.jpg" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2 class="text-white mb-3">We Sell Best Dairy Products</h2>
+                        <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                <div class="row g-4 align-items-center">
+                    <div class="col-sm-4">
+                        <img class="img-fluid rounded" src="~/dairy-website-template/img/banner-2.jpg" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <h2 class="text-white mb-3">We Deliver Fresh Mild Worldwide</h2>
+                        <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@* Our Product *@
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <p class="section-title bg-white text-center text-primary px-3">Our Products</p>
+            <h1 class="mb-5">Our Dairy Products For Healthy Living</h1>
+        </div>
+            <div class="row gx-4">
+        @foreach (var item in Model.Take(4))
+        {
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <div class="product-item">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="@item.ImageUrl" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                                <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <a class="d-block h5" href="">@item.Name</a>
+                            <span class="text-primary me-1">$@item.Price</span>
+                            <span class="text-decoration-line-through">$@item.Price</span>
+                        </div>
+                    </div>
+                </div>
+        }
+            </div>
+    </div>
 </div>

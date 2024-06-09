@@ -18,3 +18,5 @@ namespace Model.Entities
         public Category() { products = new List<Product>(); }
     }
 }
+
+//Mà kô, lúc tôi khởi tạo dữ liệu mẫu trên code vẫn oke mà, xem nhé

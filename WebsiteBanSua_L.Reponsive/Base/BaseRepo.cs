@@ -12,10 +12,8 @@ namespace WebsiteBanSua_L.Reponsive.Base
         where T : class
     {
         public WebsiteBanSua_LContext _context;
-        public string idRepo {  get; set; }
         public BaseRepo(WebsiteBanSua_LContext context)
         {
-            idRepo = "";
             _context = context;
         }
 
@@ -25,15 +23,12 @@ namespace WebsiteBanSua_L.Reponsive.Base
             await _context.SaveChangesAsync();
         }
 
-        public async Task<T> GetAsync(string id)
+        public async Task<T> GetAsync(int id)
         {
             var entity = await _context.Set<T>().FindAsync(id);
-            if(entity != null) {
-                idRepo = id;
-            }
             return entity;
         }
-        public async Task DeleteRepo(string  id)
+        public async Task DeleteRepo(int  id)
         {
             T entity = await _context.Set<T>().FindAsync(id);
             if(entity == null)

@@ -24,11 +24,11 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.CartDetail", b =>
                 {
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ProdId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ProdId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DateBuy")
                         .HasColumnType("datetime2");
@@ -48,8 +48,11 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.Category", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -62,12 +65,14 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.Image", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.Property<string>("ProdId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("ProdId")
+                        .HasColumnType("int");
 
                     b.Property<string>("thumbnail")
                         .IsRequired()
@@ -82,15 +87,17 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.Order", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -101,11 +108,11 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.OrderDetail", b =>
                 {
-                    b.Property<string>("OrId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("OrId")
+                        .HasColumnType("int");
 
-                    b.Property<string>("ProdId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("ProdId")
+                        .HasColumnType("int");
 
                     b.Property<double>("Total")
                         .HasColumnType("float");
@@ -123,12 +130,14 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.Product", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.Property<string>("CateId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CateId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -157,8 +166,11 @@ namespace WebsiteBanSua_L.Model.Migrations
 
             modelBuilder.Entity("Model.Entities.Users", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("UserName")
                         .IsRequired()

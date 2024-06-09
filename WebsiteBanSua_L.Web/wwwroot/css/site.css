@@ -16,3 +16,61 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*
+    Banner
+*/
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+    .banner-text h1 {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    .banner-text p {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .banner-text .btn {
+        font-size: 1.2em;
+        padding: 10px 20px;
+    }
+
+
+/*
+    banner product
+    */
+.page-header {
+    /*background: url('file:///D:/USB_MSI/VS/Backend/Backend-TrenLop/dairy-website-template/img/banner.jpg') background:*/
+    background: url('~/assets/Img/Banner_TH-MILK-Canh-dong-huong-duong.jpg') no-repeat center center;
+    background-size: cover;
+}

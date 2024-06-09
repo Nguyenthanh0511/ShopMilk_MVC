@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Model.Data;
@@ -40,16 +40,14 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
+app.MapAreaControllerRoute(
+    name: "Administrator",
+    areaName: "Administrator",
+    pattern: "Administrator/{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
-app.MapControllerRoute(
-      name: "areas",
-      pattern: "{area:exists}/{controller=Category}/{action=Index}/{id?}"
-    );
 
 var datainit = new DataInitializer(app.Services);
 datainit.Seed();

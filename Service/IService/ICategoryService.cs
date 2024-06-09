@@ -10,6 +10,6 @@ namespace Service.IService
 {
     public interface ICategoryService:IBaseService<Category>
     {
-
+        
     }
 }

@@ -13,7 +13,7 @@ namespace Service.Base
         public bool Flag { get; set; }
         public string Error { get; set; }
 
-        private readonly TRepo _repo;
+        public readonly TRepo _repo;
 
         public BaseService(TRepo repo)
         {
@@ -41,11 +41,11 @@ namespace Service.Base
             }
         }
 
-        public async Task Delete(string id)
+        public async Task Delete(int id)
         {
             try
             {
-                if (string.IsNullOrEmpty(id))
+                if (id != 0)
                 {
                     throw new ArgumentException("Id cannot be null or empty", nameof(id));
                 }
@@ -59,11 +59,11 @@ namespace Service.Base
             }
         }
 
-        public async Task<T> Get(string id)
+        public async Task<T> Get(int id)
         {
             try
             {
-                if (string.IsNullOrEmpty(id))
+                if (id == 0)
                 {
                     throw new ArgumentException("Id cannot be null or empty", nameof(id));
                 }

@@ -12,8 +12,8 @@ namespace Model.Entities
         [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "Don't empty")]
-        public string thumbnail {  get; set; }
-        public string ProdId {  get; set; }
+        public string thumbnail {  get; set; } // image child
+        public int ProdId {  get; set; }
         public Product Product { get; set; }
     }
 }

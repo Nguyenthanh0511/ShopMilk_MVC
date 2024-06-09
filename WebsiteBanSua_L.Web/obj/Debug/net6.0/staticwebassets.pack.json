@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\Banner_TH-MILK-Canh-dong-huong-duong.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\Banner_TH-MILK-Canh-dong-huong-duong.jpg"
+    },
+    {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
     },
@@ -19,6 +23,26 @@
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\img_1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\img_2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\img_3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\img_4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img_4.jpg"
     },
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\assets\\img\\logo.png",
@@ -3363,6 +3387,650 @@
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\404.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\dairy-website-template\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\dairy-website-template\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\about.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\contact.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\css\\style.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\dairy-website-template.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\dairy-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\feature.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\feature.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\gallery.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\gallery.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\animal.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\animal.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\award.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\award.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\client.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\client.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\experience.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\experience.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\gallery-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\product.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\product.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\service.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\service.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\dairy-website-template\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\index.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\js\\main.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\lightbox\\links.php",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\lightbox\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\parallax\\parallax.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\parallax\\parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\dairy-website-template\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\product.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\product.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\dairy-website-template\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\service.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\service.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\team.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\dairy-website-template\\testimonial.html",
+      "PackagePath": "staticwebassets\\dairy-website-template\\testimonial.html"
     },
     {
       "Id": "C:\\Users\\NguyenThanh\\Documents\\ShopMilk_MVC\\WebsiteBanSua_L.Web\\wwwroot\\favicon.ico",

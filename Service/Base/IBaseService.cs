@@ -11,10 +11,10 @@ namespace Service.Base
     {
         bool Flag {  get; set; }
         string Error {  get; set; }
-        Task<T> Get(string id);
+        Task<T> Get(int id);
         Task<List<T>> GetAll();
         Task Create(T item);
         Task Update(T item);
-        Task Delete(string id);
+        Task Delete(int id);
     }
 }
